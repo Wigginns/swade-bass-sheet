@@ -1,0 +1,47 @@
+{
+  "name": "swade-bass-sheet",
+  "title": "SWADE BASS Character Sheet",
+  "description": "A character sheet for SWADE styled for Big Apple Sewer Samurai",
+  "version": "0.0.1",
+  "library": "false",
+  "manifestPlusVersion": "1.0.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "authors": [
+    {
+      "name": "Wigginns",
+      "url": "https://github.com/Wigginns",
+      "discord": ""
+    }
+  ],
+  "dependencies": [
+    {
+        "name": "swade",
+        "type": "system"
+    }
+  ],
+  "conflicts": [
+    
+  ],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "scripts": [
+    "scripts/lib/lib.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "URL to host site",
+  "manifest": "manifest link to download",
+  "download": "direct download zip",
+  "license": "LICENSE",
+  "readme": "README.md"
+}
