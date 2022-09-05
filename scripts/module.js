@@ -1,15 +1,10 @@
-Hooks.on("init", () => {
+Hooks.on("setup", () => {
 
   console.log(`swadebass init`);
+  console.log(game.swade);
 
   class SwadeBassSheet extends game.swade.sheets.CharacterSheet {
     static get defaultOptions() {
-      console.log('swadebass', mergeObject(super.defaultOptions, {
-        classes: ['swadebass-sheet', 'swade-official', 'sheet', 'actor'],
-        width: 705,
-        height: 800,
-        resizable: true,
-      }))
       return mergeObject(super.defaultOptions, {
         classes: ['swadebass-sheet', 'swade-official', 'sheet', 'actor'],
         width: 705,
@@ -26,6 +21,10 @@ Hooks.on("init", () => {
   });
   
 });
+
+// Hooks.on("renderCharacterSheet", (sheet, html, data) => {
+//   html.addClass("swadebass-sheet");
+// });
 
 // Hooks.once('ready', async function() {
 
