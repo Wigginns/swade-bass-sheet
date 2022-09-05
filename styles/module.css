@@ -256,8 +256,14 @@
 }
 
 .swade-official.swadebass-sheet .skills .skill-name,
-.swade-official.swadebass-sheet .gear-card .item-name,
+.swade-official.swadebass-sheet .gear-card .item-name {
+    color: var(--skill-color)
+}
 .swade-official.swadebass-sheet button {
+    color: var(--heading-color-primary);
+}
+
+.swade-official.swadebass-sheet .skills .skill-die {
     color: var(--skill-color);
 }
 
@@ -298,6 +304,20 @@
 	background-image: url("../assets/layout/paper-grunge.webp");
 	transform: rotate(-1deg);
 }
+
+.swade-official.swadebass-sheet .edges .item-name,
+.swade-official.swadebass-sheet .edges .edge-hindrance,
+.swade-official.swadebass-sheet .inventory,
+.swade-official.swadebass-sheet .inventory .item-name {
+/* .swade-official.swadebass-sheet .inventory .weapon .item-controls button,
+.swade-official.swadebass-sheet .inventory .armor .item-controls button,
+.swade-official.swadebass-sheet .inventory .misc .item-controls button,
+.swade-official.swadebass-sheet .inventory .consumable .item-controls button,
+.swade-official.swadebass-sheet .inventory .shield .item-controls button,
+.swade-official.swadebass-sheet .inventory .weapon .damage button { */
+    color: var(--heading-color-accent)
+}
+
 
 .swadebass-sheet .description .advances .editor,
 .swadebass-sheet .description .biography .editor {

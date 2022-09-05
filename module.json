@@ -3,7 +3,6 @@
   "title": "SWADE BASS Character Sheet",
   "description": "A character sheet for SWADE styled for Big Apple Sewer Samurai",
   "version": "0.0.1",
-  "library": "false",
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
@@ -27,11 +26,10 @@
     "scripts/module.js"
   ],
   "scripts": [
-    "scripts/lib/lib.js"
   ],
   "styles": [
-    "styles/module.css",
-    "styles/swadebass-character-sheet.css"
+    "styles/swadebass-character-sheet.css",
+    "styles/module.css"    
   ],
   "languages": [
     {
